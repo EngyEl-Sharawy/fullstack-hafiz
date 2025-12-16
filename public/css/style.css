@@ -1,4 +1,147 @@
-main h1 {
-  color: black;
-  background-color: beige;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
+
+/* :root {
+  
+} */
+
+/* ---For Mobile--- */
+
+@media ( min-width : 320px ) {
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: #ECF4E8;
+    color: #344C64;
+  }
+
+  .containerHafiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 20px 0;
+    padding: 10px;
+    background: linear-gradient(to top right, #344C64, #ABE7B2, #CBF3BB, #93BFC7);
+  }
+
+  .containerHafiz h1 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 50px;
+    margin: 30px auto;
+    padding: 40px;
+    transition: 1s;
+  }
+
+  .containerHafiz h1:hover {
+    color: #ECF4E8;
+    text-shadow: 0 0 5px #344C64, 0 0 25px #344C64;
+  }
+
+  .overview {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .overview h2 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 13px;
+    margin: 20px 0;
+    padding: 15px auto;
+  }
+
+  .overview .Hadiths {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+    padding: 10px;
+    border: 3px solid rgb(203, 251, 166);
+    border-radius: 15px;
+    background-color: #CBF3BB;
+    width: 80%;
+    font-size: 13px;
+    font-family: "Fira Sans Condensed", sans-serif;
+  }
+
+  .overview .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid  #ABE7B2;
+    background-color: #ABE7B2;
+    color: #344C64;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "IBM Plex Serif", serif;
+    width: 100px;
+    height: 50px;
+    margin: 5px 0;
+    padding: 20px 10px;
+    border-radius: 22px;
+    transition: 0.6s;
+  }
+
+  .overview .btn:hover,
+  .overview .btn:active {
+    background-color: #344C64;
+    color: #82c78a;
+    border-color: #344C64;
+    box-shadow: 0 0 10px #344C64;
+  }
+
+  .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    padding: 15px 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #82c78a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav a {
+    min-width: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #344C64;
+    border: none;
+    transition: 0.8s;
+  }
+
+  .nav a:hover,
+  .nav a:active {
+    color: #CBF3BB;
+    border-bottom: 7px solid #CBF3BB;
+
+  }
+}
+
+/* ---For Tablet--- */
+
+/* @media ( min-width : 768px ) {
+  
+  
+} */
+
+/* ---For Desktop--- */
+
+/* @media ( min-width : 1024px ) {
+  
+  
+} */
