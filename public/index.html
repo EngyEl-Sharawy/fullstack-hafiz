@@ -1,47 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HAFIZ</title>
-  <!-- Fonts for English -->
+  <!-- Fonts for Arabic -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <!-- CSS File -->
+   <link rel="stylesheet" href="css/arabic.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <div class="nav">
-      <a href="#">Home</a>
-      <a href="#">Quran</a>
-      <a href="#">Review</a>
-      <a href="#">Profile</a>
+      <a href="#">حافظ</a>
+      <a href="#">القرآن الكريم</a>
+      <a href="#">المراجعة</a>
+      <a href="#" id="logIn">تسجيل دخول</a>
     </div>
   </header>
   <main>
     <div class="containerHafiz">
-      <h1>Hafiz</h1>
+      <div class="pictureHafiz">
+        <img src="assets/images/حافظ-removebg-preview.png" alt="كلمة حافظ">
+      </div>
     </div>
 
     <div class="overview">
-      <h2>" Hadiths on the virtue of memorizing the Quran "</h2>
+      <h2>" احاديث عن فضل حفظ القرآن الكريم "</h2>
 
       <div class="Hadiths">
-        <ul>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, temporibus.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit neque sunt laborum quisquam vero temporibus.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem beatae unde sapiente inventore earum cum, ratione eveniet corrupti iure illum necessitatibus. Adipisci ipsa nostrum blanditiis quae reiciendis molestiae! Facilis. </li>
-        </ul>
+        <p>• عن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال: “يجيء القرآن يوم القيامة، فيقول: يا رب حله، فيُلبَس تاج الكرامة، ثم يقول: يا رب زده، فيُلبَس حلة الكرامة، ثم يقول: يا رب ارض عنه فيرضى عنه، فيقال له اقرأ وارق وتزاد بكل آية حسنة”.</p>
+        <p>• عن عبد الله بن عمرو رضي الله عنهما عن النبي صلى الله عليه وسلم قال: “يقال لصاحب القرآن: إقرأ وارتق ورتل كما كنت ترتل في الدنيا فإن منزلتك عند آخر آية تقرؤها”.</p>
+        <p>• عن أبي أمامة الباهلي رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول: “اقرؤوا القرآن فإنه يأتي يوم القيامة شفيعا لأصحابه…”.</p>
       </div>
 
-      <button class="btn">Let's Start</button>
+      <button class="btn">ابدأ الحفظ</button>
     </div>
   </main>
   <footer>
-    <div>
-      
+    <div class="infoContact">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+
+    <hr class="line">
+
+    <div class="copyRgiht">  
+      <p>Copyright©<span id="year"></span> - حافظ</p>
     </div>
   </footer>
   <script src="js/app.js"></script>
