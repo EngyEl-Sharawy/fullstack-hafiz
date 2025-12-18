@@ -1,5 +1,9 @@
 * {
-  font-family: "Amiri", serif;
-  /* font-family: "Lateef", serif; */
-  /* font-family: "Scheherazade New", serif; */
+  font-family: var(--font-main);
+}
+
+:root {
+  --font-main: "Amiri", serif;
+  --font-second: "Lateef", serif;
+  --font-third: "Scheherazade New", serif;
 }

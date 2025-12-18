@@ -1,0 +1,229 @@
+/* ---For Tablet--- */
+@media ( min-width : 768px ) and (max-width : 1023px ) {
+  body {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .containerHafiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 15px auto;
+    padding: 20px;
+  }
+  
+  .containerHafiz .pictureHafiz img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .overview h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 12px 0;
+  }
+
+  .overview .Hadiths {
+    margin: 18px;
+    padding: 10px;
+    border-radius: 2%;
+    width: 70%;
+  }
+
+  .overview .Hadiths p {
+    font-size: 28px;
+  }
+
+  .overview .btn {
+    font-size: 28px;
+    font-weight: 600;
+    width: 150px;
+    height: 60px;
+    margin: 5px 0;
+    padding: 20px 10px;
+    border-radius: 50px;
+    transition: 0.6s;
+  }
+
+  /* .overview .btn:hover,
+  .overview .btn:active {
+    transform: scale(1.1);
+  } */
+
+  .nav {
+    width: 100%;
+    height: 68px;
+    padding: 18px 0;
+  }
+
+  .nav a {
+  min-width: 80px;
+  font-size: 24px;
+  }
+
+  /* .nav a:hover,
+  .nav a:active {
+    border-radius: 10px;
+    transform: scale(1.2);
+    border-radius: 20px;
+  } */
+
+  footer .infoContact a {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    transition: 0.4s;
+  }
+
+  /* footer .infoContact a:hover,
+  footer .infoContact a:active {
+    transform: scale(1.2);
+  } */
+
+  footer .infoContact {
+    width: 100%;
+    height: 20%;
+    margin: 40px;
+    padding: 20px;
+    gap: 35px;
+  }
+
+  footer .copyRgiht p {
+    font-size: 25px;
+  }
+}
+
+/* ---For Desktop--- */
+@media ( min-width : 1024px ) {
+  body {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    padding: 30px 0;
+    box-shadow: 0 0 5px var(--bg-third-color), 0 0 25px var(--bg-third-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  main {
+    padding-top: 68px;
+  }
+
+  .nav a {
+    min-width: 30px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .nav a:hover,
+  .nav a:active {
+    color: var(--third-color);
+    background-color: #eeeeee59;
+    border-radius: 10px;
+    transform: scale(1.2);
+  }
+
+  .containerHafiz {
+  width: 100%;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  }
+
+  .containerHafiz .pictureHafiz img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .overview {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .overview h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+
+  .overview .Hadiths {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .overview .Hadiths p {
+    font-size: 30px;
+  }
+
+  .overview .btn {
+    font-size: 24px;
+    width: 130px;
+    height: 50px;
+    border-radius: 18px;
+  }
+
+  .overview .btn:hover,
+  .overview .btn:active {
+    background-color: var(--bg-third-color);
+    color: var(--second-color);
+    border-color: var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+    box-shadow: 0 0 30px var(--main-color);
+    transform: scale(1.2);
+  }
+
+  footer .infoContact {
+    width: 100%;
+    min-height: 100px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer .infoContact a {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--second-color);
+    border-radius: 50%;
+    font-size: 24px;
+    transition: 0.2s;
+  }
+  
+  footer .infoContact a:hover {
+    background-color: var(--bg-second-color);
+    color: var(--third-color);
+    transform: scale(1.2);
+    box-shadow: 0 0 25px var(--second-color);
+  }
+
+  footer .line {
+    height: 2px;
+  }
+
+  footer .copyRgiht {
+    width: 100%;
+    height: auto;
+    margin: 4px;
+    padding: 20px;
+    background-color: #31363f;
+  }
+
+  footer .copyRgiht p {
+    font-size: 16px;
+  }
+}
