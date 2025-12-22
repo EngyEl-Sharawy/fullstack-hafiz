@@ -1,9 +1,10 @@
 :root {
   --main-color: #222831;
   --second-color: #76abae;
-  --third-color: #eeeeee;
+  --third-color: #EFECE3;
   --gold-color: #FFF085;
-  --bg-main-color: #eeeeee;
+  --bg-main-color: #EFECE3;
+  --bg-highlight-color: #D6F4ED;
   --bg-second-color: #76abae;
   --bg-third-color: #31363f;
 }
