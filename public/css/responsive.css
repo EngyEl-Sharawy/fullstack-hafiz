@@ -91,6 +91,10 @@
   footer .copyRgiht p {
     font-size: 25px;
   }
+
+  .wrapper {
+    width: 50%;
+  }
 }
 
 /* ---For Desktop--- */
@@ -235,5 +239,9 @@
 
   footer .copyRgiht p {
     font-size: 16px;
+  }
+
+  .wrapper {
+    width: 30%;
   }
 }
