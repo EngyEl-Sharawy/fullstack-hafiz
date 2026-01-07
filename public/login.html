@@ -23,21 +23,23 @@
   <div class="wrapper">
     <h1>حافظ</h1>
     <hr>
-    <form action="#">
+    <p id="error-message"></p>
+    <form id="form">
       <h2>أهلا بعودتك مرة تانية !</h2>
       <div class="inputBox">
-        <input type="email" name="email" id="email-input" placeholder="الايميل الالكتروني" required>
+        <input type="email" name="email" id="email-input" placeholder="الايميل الالكتروني">
         <i class="fa-solid fa-envelope"></i>
       </div>
       <div class="inputBox">
-        <input type="password" name="password" id="Password-input" placeholder="كلمة المرور" required>
+        <input type="password" name="password" id="password-input" placeholder="كلمة المرور">
         <i class="fa-solid fa-lock"></i>
       </div>
-    </form>
-    <button type="submit" class="btn">تسجيل دخول</button> 
+      <button type="submit" class="btn">تسجيل دخول</button>
+    </form> 
     <div>
       <p>ليس لديك حساب؟ <a href="register.html">حساب جديد</a></p>
     </div>
   </div>
+  <script src="js/ui-renderer.js"></script>
 </body>
 </html>

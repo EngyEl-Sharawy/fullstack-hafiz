@@ -275,16 +275,18 @@
     cursor: pointer;
     font-size: 22px;
     padding: 0 10px;
-    transition: 0.5s;
+    transition: 0.6s ease;
   }
 
-  .wrapper .btn:hover,
-  .wrapper .btn:active {
-    scale: 1.2;
+  .wrapper .btn:hover {
     color: var(--third-color);
     background: var(--main-color);
-    border: 4px solid var(--bg-second-color);
-    box-shadow: 0 0 5px var(--bg-second-color), 0 0 25px var(--bg-second-color);
+    box-shadow: 0 0 15px var(--bg-second-color), 0 0 30px var(--bg-second-color);
+  }
+
+  .wrapper .btn:focus {
+    outline: none;
+    background-color: var(--main-color);
   }
 
   .wrapper p a:hover,
