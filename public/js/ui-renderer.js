@@ -25,22 +25,27 @@ function getSignupFormErrors(name, email, password, repeatPassword) {
   let errors = [];
 
   if (!name) {
+    // Name is required
     errors.push("Name is required");
     name_Input.closest(".inputBox").classList.add("incorrect");
   }
   if (!email) {
+    // Email is required
     errors.push("Email is required");
     email_Input.closest(".inputBox").classList.add("incorrect");
   }
   if (!password) {
+    // Password is required
     errors.push("Password is required");
     password_Input.closest(".inputBox").classList.add("incorrect");
   }
   if (password.length < 8) {
+    // Password must have at least 8 characters
     errors.push("Password must have at least 8 characters");
     password_Input.closest(".inputBox").classList.add("incorrect");
   }
   if (password !== repeatPassword) {
+    // Password does not match repeated password
     errors.push("Password does not match repeated password")
     password_Input.closest(".inputBox").classList.add("incorrect");
     repeat_password_Input.closest(".inputBox").classList.add("incorrect")
@@ -53,10 +58,12 @@ function getLoginFormErrors(email, password) {
   let errors =[];
 
   if (!email) {
+    // Email is required
     errors.push("Email is required");
     email_Input.closest(".inputBox").classList.add("incorrect");
   }
   if (!password) {
+    // Password is required
     errors.push("Password is required");
     password_Input.closest(".inputBox").classList.add("incorrect");
   }
